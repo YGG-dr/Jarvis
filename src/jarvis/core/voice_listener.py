@@ -22,7 +22,7 @@ console: Console = Console()
 reconhecedor: sr.Recognizer = sr.Recognizer()
 
 
-class EchoSense:
+class VoiceListener:
     """
     Classe responsável por:
     - Captura de áudio
@@ -137,8 +137,8 @@ class EchoSense:
         """
         Envia o texto para o modelo de IA (Qwen, etc).
 
-        TODO:
-        - Validar segurança do input
+        TODO: Segurança
+        - Validar segurança do input 
         - Implementar comunicação com backend da IA
         """
 

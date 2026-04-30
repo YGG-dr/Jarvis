@@ -1,5 +1,5 @@
-from Jarvis.src.jarvis.app import InitJarvis
-from Jarvis.src.jarvis.echo_sense import EchoSense
+from Jarvis.src.jarvis.core.app import InitJarvis
+from Jarvis.src.jarvis.core.echo_sense import VoiceListener
 
 routes_jarvis: list[str] = [
     "InitJarvis",
